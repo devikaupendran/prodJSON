@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main</title>
+
+</head>
+<body>
+    <div class="product-details">
+        <div class="product-image"><img src={{%IMAGE%}} alt="image" height="150px" width="140px"></div>
+        <div class="product-description">
+            <h3>{{%NAME%}}</h3>
+            <p><span>Model Name : </span>{{%MODELNAME%}}</p>
+            <p><span>Model Number : </span>{{%MODELNO%}}</p>
+            <p><span>Size : </span>{{%SIZE%}}</p>
+            <p><span>Camera : </span>{{%CAMERA%}}</p>
+        </div>
+    </div>
+    <div class="product-informations">
+        <div class="product-price"><h5>Price : ${{%PRICE%}}</h5></div>
+        <div class="product-color"><h5>Color : {{%COLOR%}}</h5></div>
+        <div class="navigate-buttons">
+            <button class="btn btn-primary">Buy Now</button>
+            <button class="btn btn-secondary">Show Details</button>
+        </div>
+    </div>
+    <hr>
+</body>
+</html>
